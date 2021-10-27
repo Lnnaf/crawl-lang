@@ -24,7 +24,7 @@ public class Main {
         System.setProperty("webdriver.chrome.driver",PATH_DRIVER);
         ChromeOptions options = new ChromeOptions ();
         options.setHeadless(true);
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(options);
         driver.get(URL);
         //to-do
         List<WebElement>  names = driver.findElements(By.xpath(XPATH_NAME_LANG));
