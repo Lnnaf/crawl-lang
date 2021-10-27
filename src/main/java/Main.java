@@ -17,7 +17,7 @@ public class Main {
     public static WebDriver driver;
     public static final String PATH_DRIVER = "Your chrome driver path"; //example:C:\Users\your_pc\Downloads\chromedriver_win32\chromedriver.exe
     public static final String XPATH_NAME_LANG = "/html/body/section/section/main/devsite-content/article/div[2]/div/table/tbody/tr/td";
-    public static  final String URL = "https://developers.google.com/admin-sdk/directory/v1/languages";
+    public static final String URL = "https://developers.google.com/admin-sdk/directory/v1/languages";
 
     public static void main(String[] args) {
         //setup
